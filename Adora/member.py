@@ -43,4 +43,8 @@ member = {
         {"name": "Violin", "image": "img/Adora/violin.png"},
         {"name": "Gaming", "image": "img/Adora/gaming.png"},
     ],
+    "visited_places": [
+        {"lat": 29.6516, "lng": -82.3248, "name": "Gainesville, FL"},
+        {"lat": 28.2920, "lng": -81.4076, "name": "Kissimmee, FL"},
+    ],
 }

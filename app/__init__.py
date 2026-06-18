@@ -35,6 +35,7 @@ team = [
         "hobbies": [
             {"name": "Reading", "image": "img/logo.jpg"},
         ],
+        "visited_places": [],
     },
     {
         "name": "Member Three",
@@ -43,6 +44,7 @@ team = [
         "work_experiences": [],
         "education": [],
         "hobbies": [],
+        "visited_places": [],
     },
 ]
 
