@@ -33,4 +33,10 @@ member = {
         {"name": "Reading", "image": "img/Prasant/reading.png"},
         {"name": "Running/Walking", "image": "img/Prasant/running.png"},
     ],
+    "visited_places": [
+        {"lat": 29.9511, "lng": -90.0715, "name": "New Orleans, LA"},
+        {"lat": 42.3601, "lng": -71.0589, "name": "Boston, MA"},
+        {"lat": 25.7617, "lng": -80.1918, "name": "Miami, FL"},
+        {"lat": 28.3949, "lng": 84.1240, "name": "Nepal"},
+    ],
 }
