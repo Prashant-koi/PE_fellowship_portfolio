@@ -16,30 +16,6 @@ team = [
     adora,
     prasant,
     {
-        "name": "Member Two",
-        "image": "img/logo.jpg",
-        "about": "Write a short bio about yourself here.",
-        "work_experiences": [
-            {
-                "title": "Teaching Assistant",
-                "company": "My University",
-                "dates": "2023 - Present",
-                "description": "Helped students with computer science coursework.",
-            },
-        ],
-        "education": [
-            {
-                "school": "My University",
-                "degree": "B.S. Computer Science",
-                "dates": "2022 - Present",
-            },
-        ],
-        "hobbies": [
-            {"name": "Reading", "image": "img/logo.jpg"},
-        ],
-        "visited_places": [],
-    },
-    {
         "name": "Member Three",
         "image": "img/logo.jpg",
         "about": "Write a short bio about yourself here.",
