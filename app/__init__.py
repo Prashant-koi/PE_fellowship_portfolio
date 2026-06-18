@@ -1,35 +1,18 @@
 import os
+import sys
+
 from flask import Flask, render_template
 from dotenv import load_dotenv
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from Adora.member import member as adora
 
 load_dotenv()
 app = Flask(__name__)
 
 team = [
-    {
-        "name": "Member One",
-        "image": "img/logo.jpg",
-        "about": "Write a short bio about yourself here.",
-        "work_experiences": [
-            {
-                "title": "Software Intern",
-                "company": "Example Corp",
-                "dates": "Summer 2024",
-                "description": "Built internal tools with Python and Flask.",
-            },
-        ],
-        "education": [
-            {
-                "school": "My University",
-                "degree": "B.S. Computer Science",
-                "dates": "2022 - Present",
-            },
-        ],
-        "hobbies": [
-            {"name": "Photography", "image": "img/logo.jpg"},
-            {"name": "Hiking", "image": "img/logo.jpg"},
-        ],
-    },
+    adora,
     {
         "name": "Member Two",
         "image": "img/logo.jpg",
