@@ -28,4 +28,9 @@ member = {
         {"name": "Drawing", "image": "img/Liya/drawing.jpeg"},
         {"name": "Walking", "image": "img/Liya/walking.jpeg"},
     ],
+    "visited_places": [
+        {"lat": 27.9944024, "lng": -81.7602544, "name": "Florida, USA"},
+        {"lat": 32.7766642, "lng": -96.7969879, "name": "Dallas, Texas"},
+        {"lat": 36.778261, "lng": -119.4179324, "name": "California, USA"},
+    ],
 }
